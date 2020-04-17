@@ -34,10 +34,6 @@ class DesktopNavbar extends StatelessWidget {
               ),
               Row(
                 children: <Widget>[
-                  Text(
-                    "Join Room",
-                    style: TextStyle(color: Colors.white),
-                  ),
                   SizedBox(
                     width: 30,
                   ),
@@ -56,13 +52,13 @@ class DesktopNavbar extends StatelessWidget {
                     width: 30,
                   ),
                   MaterialButton(
-                    color: Colors.pink,
+                    color: Color.fromRGBO(255, 255, 255, 1.0),
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.all(Radius.circular(20.0))),
                         onPressed:(){},
                         child: Text(
                           "Learn How to Be Queuete",
-                          style: TextStyle(color: Colors.white),
+                          style: TextStyle(color: Color.fromRGBO(215,63,9, 1.0)),
                         )
                   )
                 ],

@@ -9,14 +9,14 @@ class LandingPage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text("Beep Boop. This will change", style: TextStyle(
+            Text("Beep Boop", style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 40.0,
               color: Colors.white
             ),),
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 20.0),
-              child: Text("Are you qeueute enough to play?",
+              child: Text("Are you qeueute enough to join?",
               style: TextStyle(
                 fontSize: 16.0, color: Colors.white
                 )
@@ -31,7 +31,7 @@ class LandingPage extends StatelessWidget {
               child: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 20.0, horizontal: 40.0),
                 child: Text(
-                  "Available Qeueuties",
+                  "Available Qeueute Rooms",
                   style: TextStyle(color: Colors.red)
                 ),
               ),
