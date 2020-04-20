@@ -29,5 +29,35 @@
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
+
+
+
+
+<!--Firebase integration-->
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDzVTVDPjS-Wrs3olLppyD19MgGhwe4Jq8",
+    authDomain: "i-m-queuete.firebaseapp.com",
+    databaseURL: "https://i-m-queuete.firebaseio.com",
+    projectId: "i-m-queuete",
+    storageBucket: "i-m-queuete.appspot.com",
+    messagingSenderId: "150469879154",
+    appId: "1:150469879154:web:3913d53546f84f3888a9eb",
+    measurementId: "G-R2BSJ7W4R4"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
 </body>
 </html>
