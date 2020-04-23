@@ -21,12 +21,11 @@ class DesktopNavbar extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 40),
       child: Container(
-        constraints: BoxConstraints(maxWidth: 3840),
         child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: <Widget>[
               Text(
-                "I'm Queuete",
+                "I'm Queuete!",
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
@@ -37,16 +36,22 @@ class DesktopNavbar extends StatelessWidget {
                   SizedBox(
                     width: 30,
                   ),
-                  Text(
-                    "About Us",
-                    style: TextStyle(color: Colors.white),
+                  FlatButton(
+                    onPressed: () {},
+                    child: Text(
+                      "About Us",
+                      style: TextStyle(color: Colors.white),
+                    ),
                   ),
                   SizedBox(
                     width: 30,
                   ),
-                  Text(
-                    "Settings",
-                    style: TextStyle(color: Colors.white),
+                  FlatButton(
+                    onPressed: () {},
+                    child: Text(
+                      "Login",
+                      style: TextStyle(color: Colors.white),
+                    ),
                   ),
                   SizedBox(
                     width: 30,
@@ -89,23 +94,22 @@ class MobileNavbar extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
-                      Text(
-                        "Join Room",
-                        style: TextStyle(color: Colors.white),
+                      FlatButton(
+                        onPressed: () {},
+                        child: Text(
+                          "About Us",
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                       SizedBox(
                         width: 30,
                       ),
-                      Text(
-                        "About Us",
-                        style: TextStyle(color: Colors.white),
-                      ),
-                      SizedBox(
-                        width: 30,
-                      ),
-                      Text(
-                        "Settings",
-                        style: TextStyle(color: Colors.white),
+                      FlatButton(
+                        onPressed: () {},
+                        child: Text(
+                          "Login",
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                     ],
                   ),

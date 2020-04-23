@@ -11,7 +11,7 @@ class LandingPage extends StatelessWidget {
           children: <Widget>[
             Text("Beep Boop", style: TextStyle(
               fontWeight: FontWeight.bold,
-              fontSize: 40.0,
+              fontSize: 60.0,
               color: Colors.white
             ),),
             Padding(

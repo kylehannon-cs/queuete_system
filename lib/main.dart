@@ -11,9 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Queuete System',
+      title: "I'm Queuete!",
       theme: ThemeData(
-        primarySwatch: Colors.blue,
         fontFamily: "IBMPlexMono"
       ),
       home: MyHomePage(),
